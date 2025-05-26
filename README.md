@@ -19,4 +19,4 @@ $ python atoms_distances.py
 $ python frames.py (isolates frames at the times that have arisen from previous script as .gro files and parse the .gro file to extract the coordinates of the atoms by their indices.)
 OUTPUT FILE: filtered_distances_summary.txt (uploaded)
 $ python angles_criterio.py reads atoms index numbers for all the triplets (from angles.ndx) and computes all the angles of all .gro files, explicitly defines (C-CL-O) triplet. 
-
+Angles 0-20 degrees and 160-180 degrees are being chosen
