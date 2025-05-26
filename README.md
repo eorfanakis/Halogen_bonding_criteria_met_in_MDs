@@ -32,3 +32,4 @@ Lastly, the final command is:
 $ python plot.py
 
 And is generated an image like this:
+![alprazolam_best](https://github.com/user-attachments/assets/ba3c1618-c1d6-4c47-bc1d-398276e68fec)
