@@ -19,5 +19,7 @@ $ python atoms_distances.py
 $ python frames.py (isolates frames at the times that have arisen from previous script as .gro files and parse the .gro file to extract the coordinates of the atoms by their indices.)
 OUTPUT FILE: filtered_distances_summary.txt (uploaded)
 $ python angles_criterio.py reads atoms index numbers for all the triplets (from angles.ndx) and computes all the angles of all .gro files, explicitly defines (C-CL-O) triplet. 
-$ python angles.py, Function to check if the angle falls within the desired ranges (0-20 and 160-180 degrees)
-
+$ python angles_degrees.py, Function to check if the angle falls within the desired ranges (0-20 and 160-180 degrees)
+The angles are calculated and from the workflow, only the frames that both of the geometrical criteria are met are kept.
+Then the alprazolam's center of mass is being calculated and is divided by 2 to represent the drug's COM at the z axis of the bilayer.
+$ python drug_com.py
