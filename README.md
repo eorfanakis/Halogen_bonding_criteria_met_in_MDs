@@ -8,4 +8,6 @@ A case of an Alprazolam molecule, which is biased moving through a lipid membran
 
 Lewis bases of phosphate groups and lipid tails oxygen atoms were selected, 8 atoms at total.
 Firstly, the halogen atom (CL) of the alprazolam molecule (Chlorine) is being accounted as number 20 at .gro files, of the ALP molecule (Alprazolam).
-Also oxygen atoms of DOPC lipid molecules are the atoms: O11, O12, O13, O14, O21, O22, O31 and O32 from:$ gmx make_ndx -f umbrella_window.gro and make the files XB_O11.ndx, XB_012.ndx, XB_O13.ndx, XB_O14.ndx, XB_O21.ndx, XB_O22.ndx, XB_O31.ndx and XB_O32.ndx.
+Also oxygen atoms of DOPC lipid molecules are the atoms: O11, O12, O13, O14, O21, O22, O31 and O32 from:
+$ gmx make_ndx -f umbrella_window.gro and make the files XB_O11.ndx, XB_012.ndx, XB_O13.ndx, XB_O14.ndx, XB_O21.ndx, XB_O22.ndx, XB_O31.ndx and XB_O32.ndx uploaded. Note the [ distance_pairs ] section and the [ angles ] section composed by the Chlorine atom, the Carbon atom with its being connected (19 in .gro files) and the Oxygen atom.
+
