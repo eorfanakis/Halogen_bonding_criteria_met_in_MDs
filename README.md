@@ -27,6 +27,16 @@ $ python atoms_distances.py
 
 $ python frames.py (isolates frames at the times that have arisen from previous script as .gro files and parse the .gro file to extract the coordinates of the atoms by their indices.)
 
+$ python angles.py
+
+$ python angles_degrees.py
+
+The frames with the distance and angle criterio are been choosen and the purpose is now satisfied.
+
+We calculate the drug's Center of Mass and divide it by 2 cause its at a bilayer and find its position at the z axis. Then its been determined if the halogen bond would be formed through the molecule (Alprazolam) and the oxygen atom either of the lipid tail or the headgroupd.
+
+$ python drug_com.py
+
 Lastly, the final command is:
 
 $ python plot.py
