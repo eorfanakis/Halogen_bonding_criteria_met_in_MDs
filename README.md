@@ -16,7 +16,7 @@ Where groups = ['O21', 'O22', 'O31', 'O32', 'O11', 'O12', 'O13', 'O14'] and num_
 Then, the distances are being filtered and The X···Y distance should be less than the sum of the van der Waals radii of the two atoms involved so the threshold for Cl···O is about 0.3270 nm.
 $ python atoms_distances.py
 (Ctrl + H replace .000 with .00)
-$ -python frames.py (isolates frames at the times that have arisen from previous script as .gro files and parse the .gro file to extract the coordinates of the atoms by their indices.)
-
-
+$ python frames.py (isolates frames at the times that have arisen from previous script as .gro files and parse the .gro file to extract the coordinates of the atoms by their indices.)
+OUTPUT FILE: filtered_distances_summary.txt (uploaded)
+$ python angles_criterio.py reads atoms index numbers for all the triplets (from angles.ndx) and computes all the angles of all .gro files, explicitly defines (C-CL-O) triplet. 
 
